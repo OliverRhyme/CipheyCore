@@ -4,6 +4,8 @@
 
 #include <array>
 
+#include <utility>
+
 namespace ciphey::xor_single {
   // Unsigned overflow *is* defined, so we can iterate until we wrap around to zero again
   //
